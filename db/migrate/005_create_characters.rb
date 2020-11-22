@@ -5,4 +5,4 @@
 #  relationship with these database table columns.
 #- Write a migration that adds the column `catchphrase` to your character model.
 
-def change 
+class CreateCharacters < ActiveRecord::Migration
